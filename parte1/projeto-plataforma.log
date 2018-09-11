@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.11)  11 SEP 2018 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.11)  11 SEP 2018 17:25
 entering extended mode
 **./projeto-plataforma.tex
 (projeto-plataforma.tex
@@ -463,53 +463,55 @@ Package babel Info: Redefining portuges shorthand "|
 LaTeX Font Info:    Font shape `OMS/cmr/m/sl' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 100.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 152.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 153.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 172.
 
-[2] (projeto-plataforma.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+[2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 172.
+ (projeto-plataforma.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 184.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 184.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (projeto-plataforma.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `projeto-plataforma.out' has not changed.
 (rerunfilecheck)             Checksum: C6E162DD4F57D71371BDAC56F27F0F00;460.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 8445 strings out of 492972
+ 8447 strings out of 492972
  127889 string characters out of 3130117
- 248805 words of memory out of 3000000
- 12197 multiletter control sequences out of 15000+200000
- 9112 words of font info for 32 fonts, out of 3000000 for 9000
+ 250814 words of memory out of 3000000
+ 12200 multiletter control sequences out of 15000+200000
+ 9163 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,43p,334b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsl10.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb>
-Output written on projeto-plataforma.pdf (3 pages, 93154 bytes).
+12.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsl10.pfb><C:/Users/gustavo.oliveira/FDS/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb>
+Output written on projeto-plataforma.pdf (3 pages, 84722 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)

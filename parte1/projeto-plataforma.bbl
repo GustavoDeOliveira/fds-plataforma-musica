@@ -1,14 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Alon, }2009]{alon2009choose}
-Alon, Uri. (2009).
-\newblock How to choose a good scientific problem.
-\newblock {\em Molecular cell}, {\bf 35}(6), 726--728.
+\bibitem[\protect\citename{SoundCloud, }2018]{soundcloud}
+SoundCloud. (2018).
+\newblock {\em Soundcloud}.
 
-\bibitem[\protect\citename{Ekti, }2019]{Ekti201961}
-Ekti, A.R. (2019).
-\newblock Fuzzy logic approach for layered architecture cognitive radio
-  systems.
-\newblock {\em Lecture notes in electrical engineering}, {\bf 504}, 61--71.
+\bibitem[\protect\citename{Spotify, }2018]{spotify}
+Spotify. (2018).
+\newblock {\em Spotify}.
 
 \end{thebibliography}
