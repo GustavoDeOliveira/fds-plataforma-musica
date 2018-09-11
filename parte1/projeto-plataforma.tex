@@ -1,0 +1,167 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{url}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage[pdftex]{graphicx}
+%\usepackage{pdfpages}
+
+% \usepackage{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+\usepackage[pdftex]{graphicx}
+\graphicspath{{./imagens/}}
+\usepackage{color}
+
+%\usepackage{indentfirst}                % indentação do primeiro parágrafo
+
+\setlength{\parskip}{2mm}
+\usepackage[a4paper,top=2.554cm,bottom=2.554cm,left=2.554cm,right=2.554cm]{geometry} %
+
+%\linespread{1.3}
+
+\usepackage[round,sort,nonamebreak]{natbib} % 
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% ------------------------------------------------------------------ %
+\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+
+%\usepackage[format=plain,labelfont=bf,up,textfont=it,up]{caption}
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+
+\usepackage[pdftex,plainpages=false,pdfpagelabels,
+	linktocpage,
+	colorlinks=true,
+	citecolor=DarkGreen,
+	linkcolor=NavyBlue,
+	urlcolor=DarkRed,
+	filecolor=green,
+	bookmarksopen=true,
+	pdfauthor={Nome do autor do documento},
+	pdfsubject={subject1, subject2, ...},
+	pdfkeywords={keyword1, keyword2, ...}
+]{hyperref}
+
+
+
+%\onehalfspacing  % espaçamento
+\singlespacing  % espaçamento
+
+% ------------------------------------------------------------------ %
+\lhead{}
+\rhead{}
+
+\title{\textbf{Plataforma  para  Divulgação  de Músicas  de  Artistas  Independentes }\\[2em]
+{\large Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul}}
+
+\author{Proponentes: Gustavo Pereira de Oliveira, Israel Barreto Risso\\ 
+{Tecnologia em Análise e Desenvolvimento de Sistemas}\\ 
+{Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul}\\ \{6ustavo.0liveira,israel.barreto\}@gmail.com }
+
+\date{Rio Grande do Sul, 4 de Setembro de 2018}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+%% Se o projeto tiver muitas páginas/seções talvez seja
+%% bom considerar um sumário
+% \tableofcontents     
+
+\pagebreak
+\singlespacing  % espaçamento simples
+
+% ------------------------------------------------------------------ %
+\section{Introdução}
+\label{sec:introducao}
+Aplicativos como o Spotify possibilitam acesso a uma variedade de músicas de artistas renomados, mas uma plataforma focada na cena local seria útil tanto para músicos e bandas que queiram ser reconhecidos quanto para amantes da música \slshape{underground}.
+% ------------------------------------------------------------------ %
+
+\section{Trabalhos Relacionados}
+
+\begin{itemize}
+\item \textcolor{DarkGrey}{
+	Spotify - Aplicação  de  streaming  de  música  com  foco  em  artistas  renomados.
+}
+\item \textcolor{DarkGrey}{
+	Soundcloud - Plataforma  que  permite  a  publicação  de  diversos  tipos  de  trabalhos  de  áudio,  como  músicas  e  podcasts.
+}
+\end{itemize} 
+
+% ------------------------------------------------------------------ %
+\section{Objetivos}
+
+\subsection{Objetivo geral}
+
+\textcolor{DarkGrey}{
+Criar  uma  plataforma  de  upload  de  arquivos  e  divulgação  de  artistas  com  um  sistema  de  recomendações  para  promover  a  cena  musical  rio  grandina  através  de  sugestões  de  novasmúsicas  e  artistas.
+}
+
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+	
+\item  \textcolor{DarkGrey}{
+Identificar  as  necessidades  da  cena  musical  local.
+}
+
+\item \textcolor{DarkGrey}{
+Aproximar  a  população  dos  artistas,  fornecendo  uma  ferramenta  de  fácil  utilização.
+}
+
+\item \textcolor{DarkGrey}{
+Divulgar  o  trabalho  dos  artistas  locais  por  meio  de  sugestões  personalizadas.
+}
+
+\end{itemize} 
+
+
+% ------------------------------------------------------------------ %
+\section{Metodologia}
+
+\begin{itemize}
+
+\item  \textcolor{DarkGrey}{
+	Realização  da  análise  do  projeto,  incluindo  elicitação  de  requisitos  e  criação  de  diagramas  utilizando  a  ferramenta  Astah  Community.
+}
+\item  \textcolor{DarkGrey}{
+	Realizar  gestão  do  projeto  por  meio  da  ferramenta  OpenProj.
+}
+\item  \textcolor{DarkGrey}{
+Criação  da  infra-estrutura  do  projeto,  com  um  banco  de  dados  PostgreSQL  e  servidor  Apache  Tomcat.
+}
+\item  \textcolor{DarkGrey}{
+Desenvolvimento  do  back-end  do  sistema  utilizando  a  linguagem  Java  Web.
+}
+\item  \textcolor{DarkGrey}{
+Desenvolvimento  do  front-end  do  sistema  utilizando  JSP.
+}
+
+\end{itemize}
+
+% ------------------------------------------------------------------ %
+\section{Plano de trabalho e Cronograma}
+
+
+
+% ------------------------------------------------------------------ %
+\section{Considerações finais}
+\label{sec:consideracoes_finais}
+
+A utilização da plataforma poderia revitalizar a cena musical local, trazendo uma visão mais artística e menos comercial sobre a música. Pessoas de outras regiões podem acabar se interessando nos artistas de Rio Grande e isso pode proporcionar novas oportunidades para quem está começando na área.
+
+% ------------------------------------------------------------------ %
+\bibliographystyle{authordate2} % citação bibliográfica textual
+%%\bibliographystyle{plain}
+\bibliography{references}
+
+
+% ------------------------------------------------------------------ %
+\end{document}
