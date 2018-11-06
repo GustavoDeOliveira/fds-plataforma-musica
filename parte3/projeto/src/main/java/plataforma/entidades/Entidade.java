@@ -1,6 +1,7 @@
-package plataforma.persistencia;
+package plataforma.entidades;
 
 import java.io.Serializable;
+import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,6 +17,10 @@ public abstract class Entidade implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+    
+    private Date dataCriacao;
+    
+    private Date dataModificacao;
 
     public Integer getId() {
         return id;
@@ -23,6 +28,22 @@ public abstract class Entidade implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Date getDataCriacao() {
+        return dataCriacao;
+    }
+
+    public void setDataCriacao(Date dataCriacao) {
+        this.dataCriacao = dataCriacao;
+    }
+
+    public Date getDataModificacao() {
+        return dataModificacao;
+    }
+
+    public void setDataModificacao(Date dataModificacao) {
+        this.dataModificacao = dataModificacao;
     }
 
     @Override
@@ -44,7 +65,7 @@ public abstract class Entidade implements Serializable {
 
     @Override
     public String toString() {
-        return "plataforma.persistencia.Usuario[ id=" + id + " ]";
+        return this.getClass().getName() + "[ id=" + id + " ]";
     }
     
 }

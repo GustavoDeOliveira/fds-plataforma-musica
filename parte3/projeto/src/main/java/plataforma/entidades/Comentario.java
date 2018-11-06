@@ -1,4 +1,4 @@
-package plataforma.persistencia;
+package plataforma.entidades;
 
 import java.util.Date;
 import java.text.ParseException;
@@ -29,6 +29,10 @@ public class Comentario extends Entidade {
     @JoinColumn(name = "autor_id")
     private Usuario autor;
 
+
+    
+    
+    // GETTERS / SETTERS
     public String getConteudo() {
         return conteudo;
     }
@@ -43,6 +47,22 @@ public class Comentario extends Entidade {
 
     public void setData(Date data) {
         this.data = data;
+    }
+
+    public Musica getMusica() {
+        return musica;
+    }
+
+    public void setMusica(Musica musica) {
+        this.musica = musica;
+    }
+
+    public Usuario getAutor() {
+        return autor;
+    }
+
+    public void setAutor(Usuario autor) {
+        this.autor = autor;
     }
     
     public String getDataString() {

@@ -1,4 +1,4 @@
-package plataforma.persistencia;
+package plataforma.entidades;
 
 import javax.persistence.Column;
 import javax.persistence.Table;
